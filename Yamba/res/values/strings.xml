@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StatusActivity!</string>
+    <string name="app_name">Yamba</string>
+    <string name="titleStatusUpdate">Status Update</string>
+    <string name="hintStatus">Please enter your status message</string>
+    <string name="buttonUpdate">Update</string>
+	<string name="msgStatusUpdatedSuccessfully">Status Updated Successfully</string>
+	<string name="msgStatusUpdatedFailed">Status Update Failed</string>
+	<string name="username">Username</string>
+	<string name="usernameSummary">Please enter your username</string>
+	<string name="password">Password</string>
+	<string name="summaryPassword">Please enter password</string>
+	<string name="server">Server</string>
+	<string name="summaryServer">Server Url</string>
+	<string name="titlePrefs">Preferences</string>
+	<string name="titleServiceStart">Start Service</string>
+	<string name="titleServiceStop">Stop Service</string>
+	<string name="titlePurge">Purge Db</string>
+	<string name="msgDataPurged">Data purged</string>
+	<string name="titleTimeline">Timeline</string>
+	<string name="titleStartOnBoot">StartOnBoot</string>
+	<string name="summaryStartOnBoot">Should Svc Start On Boot</string>
+</resources>

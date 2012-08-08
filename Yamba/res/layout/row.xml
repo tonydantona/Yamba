@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- First row of data: User and CreatedAT -->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+	    <!--  User  -->
+ 	    <!-- 0dip instead of fill_parent for better performance -->	    
+	    <TextView
+	        android:id="@+id/textUser"
+	        android:layout_width="0dip" 
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="@style/rowText" android:text="Mickey"/>
+	    
+	    <!--  CreateAt -->
+	    <TextView
+	        android:id="@+id/textCreatedAt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/rowText" android:text="10 minutes ago"/>
+	    	    
+       
+    </LinearLayout>
+
+    
+
+    <!--  Second row of data: Text (aka status) -->
+    <TextView
+        android:id="@+id/textText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/rowText" android:text="Shopping in Milan" android:autoLink="all"/>
+
+</LinearLayout>

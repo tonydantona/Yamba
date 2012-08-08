@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemTimeline"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/titleTimeline">
+    </item>
+    <item
+        android:id="@+id/itemStatus"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/titleStatusUpdate">
+    </item>
+    <item
+        android:id="@+id/itemPrefs"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/titlePrefs">
+    </item>
+    
+    <!--  using toggle 
+    <item
+        android:id="@+id/itemServiceStart"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/titleServiceStart">
+    </item>
+    <item
+        android:id="@+id/itemServiceStop"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="@string/titleServiceStop">
+    </item>
+    -->
+    
+    <item
+        android:id="@+id/itemPurge"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/titlePurge">
+    </item>
+    <item android:id="@+id/itemToggleService" android:title="@string/titleServiceStart" android:icon="@android:drawable/ic_media_play"></item>
+
+</menu>

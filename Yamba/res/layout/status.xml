@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity" >
+
+    <TextView
+        style="@style/title"
+        android:text="@string/titleStatusUpdate" />
+
+    <EditText
+        android:id="@+id/editStatus"
+        style="@style/statusbox"
+        android:hint="@string/hintStatus" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        style="@style/button"
+        android:text="@string/buttonUpdate" />
+
+</LinearLayout>
